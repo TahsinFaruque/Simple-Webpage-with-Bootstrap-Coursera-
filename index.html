@@ -1,0 +1,572 @@
+<html lang="en">
+
+<head>
+
+    <title>Ristorante Con Fusion: About Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="sass/styles.css">
+    <script src="https://kit.fontawesome.com/55f1e30ecb.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-light purple">
+        <div class="forflex">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            </a>
+        </div>
+        <div class="forflex">
+            <a href="" class="white" data-toggle="modal" data-target="#login">
+                <i class="fas fa-sign-in-alt"></i> Login
+            </a>
+        </div>
+    </nav>
+
+
+    <!--Nav Login Modal-->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" id="purple">
+                    <h5 class="modal-title white" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="close white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body lightpurple">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <input type="email" placeholder="Enter email" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <input type="password" placeholder="Password" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <input type="checkbox" id="check" aria-label="Checkbox for following text input">
+                                <label for="check">Remember Me</label>
+                            </div>
+
+                        </div>
+                    </form>
+
+                    <div class="text-right">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary">Sign in</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <header class=" jumbotron text-white rounded-0 " style=" background-color:#9575CD ">
+        <div class=" container ">
+            <div class=" row row-header align-items-center ">
+                <div class=" col-lg-6 col-sm ">
+                    <h1 style=" font-size: 35px; ">Ristorante con Fusion</h1>
+                    <p style=" text-align: left; width: 70%; ">We take inspiration from the World's best cuisines, and create a unique fusion experience. <br> Our lipsmacking creations will tickle your culinary senses!
+                    </p>
+                </div>
+                <div class=" col-lg-6 col-sm ">
+                    <div class=" logo " style=" display: inline; margin: 0 200px 0 52px; ">
+                        <img src=" images/logo.png " alt=" My Logo " class=" w-25 ">
+                    </div>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#loveyou">
+                        Reserve Table
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- Modal Open-->
+    <div class="modal fade" id="loveyou" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Reserve a Table</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <section class="form d-none d-sm-block" id="form">
+                        <div class="container">
+                            <div class="row">
+                                <form>
+                                    <div class="row p-2">
+                                        <h6 class="col-lg-3">Number of <br> Guests</h6>
+
+                                        <div class="col-lg-8">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" id="1" name="number">
+                                                <label class="form-check-label" for="1">1</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" id="2" name="number">
+                                                <label class="form-check-label" for="2">2</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" id="3" name="number">
+                                                <label class="form-check-label" for="3">3</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" id="4" name="number">
+                                                <label class="form-check-label" for="4">4</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" id="5" name="number">
+                                                <label class="form-check-label" for="5">5</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" id="6" name="number">
+                                                <label class="form-check-label" for="6">6</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row p-2">
+                                        <h6 class="col-lg-3">Section</h6>
+                                        <div class="col-lg-8">
+                                            <button type="submit" class="btn-sm btn-success">Non-Smoking</button>
+                                            <button type="submit" class="btn-sm btn-danger">Smoking</button>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row ">
+                                        <h6 class="col-lg-3 pl-4 pt-2">Date and <br> Time</h6>
+                                        <div class="col-lg-8 pt-4">
+                                            <div class="form-row">
+                                                <div class="col">
+                                                    <input class="form-control" type="text" placeholder="Date">
+                                                </div>
+
+                                                <div class="col">
+                                                    <input class="form-control" type="text" placeholder="Time">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="text-right pt-5">
+                                        <div class="col-7">
+                                            <button type="submit" class="btn-secondary" data-dismiss="modal">Cancel</button>
+                                            <button type="submit" class="btn-primary">Reserve</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <!-- Modal Close-->
+
+
+
+
+
+    <section class=" one ">
+        <div class=" container ">
+            <div class=" row ">
+
+                <div class=" col-lg-3 d-block d-sm-none ">
+                    <h4 class=" description pb-3 pl-2 ">
+                        Our Lipsmacking
+                        <br> Culinary Creation
+                    </h4>
+                </div>
+
+
+                <div class=" col-lg-9 flex-row d-flex ">
+                    <div class=" col-lg-3 ">
+                        <div class=" card ">
+                            <div class=" card-body image_1 ">
+                                <img src=" https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-homemade-pizza-horizontal-1542312378.png " alt=" Image 1 " class=" c " lass=" card-img " style=" width: 100%; ">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-9 text-left flexStyle ">
+                        <div class=" extraSmallShow d-block d-sm-none ">
+                            <h2>Uthappiza</h2>
+                            <h3><span class=" badge badge-danger Badge ">HOT</span>
+                            </h3>
+                            <span class=" badge badge-pill badge-secondary dollar ">$4.99</span>
+                        </div>
+
+                        <h2 class=" leftFlex d-none d-sm-block ">Uthappiza</h2>
+                        <div class=" rightFlex d-none d-sm-block ">
+                            <h3 class=" dContent "><span class=" badge badge-danger Badge ">HOT</span></h3>
+                            <span class=" badge badge-pill badge-secondary dollar ">$4.99</span>
+
+                        </div>
+                        <div class=" d-none d-sm-block ">
+                            <p class=" passage ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente autem voluptate dolorum quaerat in. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veearum repudiandae amet.ro dicta quod molestiae voluptatum laudantium
+                                cum officia non.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <div class=" col-lg-3 d-none d-sm-block ">
+                    <h4 class=" description ">
+                        Our
+                        <br> Lipsmacking
+                        <br> Culinary
+                        <br> Creation
+                    </h4>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class=" two ">
+        <div class=" container ">
+            <div class=" row ">
+
+                <div class=" col-lg-3 justify-content-end ">
+                    <h4 class=" description ">
+                        This Month's
+                        <br> Promotions
+                    </h4>
+                </div>
+
+
+                <div class=" col-lg-9 flex-row d-flex ">
+
+                    <div class=" col-lg-9 text-left flexStyle relative ">
+                        <h2 class=" leftFlex d-none d-sm-block ">Weekend Grand Buffet</h2>
+                        <h2 class=" d-block d-sm-none mt-3 ">Weekend <br> Grand <br> Buffet</h2>
+
+                        <h3 class=" d-block d-sm-none dContent absolute "><span class=" badge badge-danger Badge ">NEW</span>
+                        </h3>
+                        <div class=" rightFlex d-none d-sm-block ">
+                            <h3 class=" dContent "><span class=" badge badge-danger Badge ">NEW</span>
+                                <h3>
+                        </div>
+                        <p class=" passage d-none d-sm-block ">Aliquid, in labore quisquam harum aspernatur eius maxime minima a cum similique unde! Repellat dolores voluptas similique voluptate!Repellat dolores voluptas similique voluptate!Repellat dolores voluptas similique voluptate!
+                        </p>
+                    </div>
+
+                    <div class=" col-lg-3 ">
+                        <div class=" card ">
+                            <div class=" card-body image_1 ">
+                                <img src=" images/buffet.png " alt=" Image 1 " class=" c " lass=" card-img " style=" width: 100%; ">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class=" three ">
+        <div class=" container ">
+            <div class=" row ">
+
+
+                <div class=" col-lg-3 d-block d-sm-none ">
+                    <h4 class=" description pl-3 pb-3 ">
+                        Meet our Culinary
+                        <br> Specialists
+                    </h4>
+                </div>
+
+
+                <div class=" col-lg-9 flex-row d-flex ">
+                    <div class=" col-lg-3 ">
+                        <div class=" card ">
+                            <div class=" card-body image_1 ">
+                                <img src=" images/alberto.png " alt=" Image 1 " class=" c " lass=" card-img " style=" width: 100%; ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-9 ">
+                        <h3>Alberto Somayya</h3>
+                        <h4>Executive Chef</h4>
+                        <p class=" passage d-none d-sm-block ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente autem voluptate dolorum quaerat in. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veearum repudiandae amet.ro dicta quod molestiae voluptatum laudantium
+                            cum officia non.
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class=" col-lg-3 d-none d-sm-block ">
+                    <h4 class=" description ">
+                        Meet our
+                        <br> Culinary
+                        <br> Specialists
+                    </h4>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--Reservation Table Form-->
+
+    <!-- <section class=" form d-none d-sm-block " id=" form ">
+        <div class=" container ">
+            <div class=" card ">
+                <div class=" card-body ">
+                    <div class=" row justify-content-center ">
+                        <div class=" col-lg-8 ">
+                            <h3 class=" bg-warning text-white reserve rounded pl-3 p-2 ">Reserve a Table</h3>
+                            <div class=" card ">
+                                <div class=" card-body ">
+                                    <form class=" d-flex ">
+                                        <div class=" col-lg-2 ">
+                                            <b>Number <br> of Guests</b>
+                                        </div>
+                                        <div class=" col-lg-10 ">
+                                            <div class=" form-check form-check-inline ">
+                                                <input class=" form-check-input " type=" radio " id=" 1 " name=" number ">
+                                                <label class=" form-check-label " for=" 1 ">1</label>
+                                            </div>
+                                            <div class=" form-check form-check-inline ">
+                                                <input class=" form-check-input " type=" radio " id=" 2 " name=" number ">
+                                                <label class=" form-check-label " for=" 2 ">2</label>
+                                            </div>
+                                            <div class=" form-check form-check-inline ">
+                                                <input class=" form-check-input " type=" radio " id=" 3 " name=" number ">
+                                                <label class=" form-check-label " for=" 3 ">3</label>
+                                            </div>
+                                            <div class=" form-check form-check-inline ">
+                                                <input class=" form-check-input " type=" radio " id=" 4 " name=" number ">
+                                                <label class=" form-check-label " for=" 4 ">4</label>
+                                            </div>
+                                            <div class=" form-check form-check-inline ">
+                                                <input class=" form-check-input " type=" radio " id=" 5 " name=" number ">
+                                                <label class=" form-check-label " for=" 5 ">5</label>
+                                            </div>
+                                            <div class=" form-check form-check-inline ">
+                                                <input class=" form-check-input " type=" radio " id=" 6 " name=" number ">
+                                                <label class=" form-check-label " for=" 6 ">6</label>
+                                            </div>
+                                        </div>
+                                    </form>
+
+
+                                    <form>
+                                        <div class=" d-flex ">
+                                            <div class=" col-lg-2 ">
+                                                <b>Date and <br> Time</b>
+                                            </div>
+                                            <div class=" col-lg-10 ">
+
+                                                <div class=" form-row ">
+                                                    <div class=" col ">
+                                                        <input class=" form-control " type=" text " placeholder=" Date ">
+                                                    </div>
+
+                                                    <div class=" col ">
+                                                        <input class=" form-control " type=" text " placeholder=" Time ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class=" text-right pt-4 ">
+                                            <div class=" col-4 ">
+                                                <button type=" submit " class=" btn btn-primary ">Reserve</button>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class=" form d-block d-sm-none " id=" form ">
+        <div class=" container ">
+            <div class=" card ">
+                <div class=" card-body ">
+                    <div class=" row justify-content-center ">
+                        <div class=" col-lg-8 ">
+                            <h3 class=" bg-warning text-white reserve rounded pl-3 p-2 ">Reserve a Table</h3>
+                            <div class=" card ">
+                                <div class=" card-body ">
+                                    <form>
+                                        <div class=" col-lg-2 ">
+                                            <b>Number of Guests</b>
+                                        </div>
+                                        <div class=" col-lg-10 ">
+                                            <div class=" form-check form-check-inline ">
+                                                <input class=" form-check-input " type=" radio " id=" 1 " name=" number ">
+                                                <label class=" form-check-label " for=" 1 ">1</label>
+                                            </div>
+                                            <div class=" form-check form-check-inline ">
+                                                <input class=" form-check-input " type=" radio " id=" 2 " name=" number ">
+                                                <label class=" form-check-label " for=" 2 ">2</label>
+                                            </div>
+                                            <div class=" form-check form-check-inline ">
+                                                <input class=" form-check-input " type=" radio " id=" 3 " name=" number ">
+                                                <label class=" form-check-label " for=" 3 ">3</label>
+                                            </div>
+                                            <div class=" form-check form-check-inline ">
+                                                <input class=" form-check-input " type=" radio " id=" 4 " name=" number ">
+                                                <label class=" form-check-label " for=" 4 ">4</label>
+                                            </div>
+                                            <div class=" form-check form-check-inline ">
+                                                <input class=" form-check-input " type=" radio " id=" 5 " name=" number ">
+                                                <label class=" form-check-label " for=" 5 ">5</label>
+                                            </div>
+                                            <div class=" form-check form-check-inline ">
+                                                <input class=" form-check-input " type=" radio " id=" 6 " name=" number ">
+                                                <label class=" form-check-label " for=" 6 ">6</label>
+                                            </div>
+                                        </div>
+
+
+                                        <div class=" col-lg-2 pt-3 ">
+                                            <b>Date and Time</b>
+                                        </div>
+
+                                        <div class=" col-lg-10 ">
+                                            <input class=" form-control " type=" text " placeholder=" Date ">
+
+                                            <input class=" form-control " type=" text " placeholder=" Time ">
+                                        </div>
+
+
+                                        <div class=" text-right pt-4 ">
+                                            <div class=" col-4 ">
+                                                <button type=" submit " class=" btn btn-primary ">Reserve</button>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <footer class=" footer pt-5 " style=" background-color: #D1C4E9; ">
+        <div class=" container ">
+            <div class=" row ">
+                <div class=" col-4 offset-1 col-sm-2 ">
+                    <h5>Links</h5>
+                    <ul class=" list-unstyled ">
+                        <li><a href=" # ">Home</a></li>
+                        <li><a href=" # ">About</a></li>
+                        <li><a href=" # ">Menu</a></li>
+                        <li><a href=" # ">Contact</a></li>
+                    </ul>
+                </div>
+                <div class=" col-7 col-sm-5 ">
+                    <h5>Our Address</h5>
+                    <address>
+                        121, Clear Water Bay Road<br>
+                        Clear Water Bay, Kowloon<br>
+                        HONG KONG<br>
+                        Tel.: +852 1234 5678<br>
+                        Fax: +852 8765 4321<br>
+                        Email: <a href=" mailto:confusion@food.net ">confusion@food.net</a>
+                    </address>
+                </div>
+                <div class=" col-12 col-sm-4 align-self-center ">
+                    <div class=" text-center ">
+                        <a href=" http://google.com/+ ">Google+</a>
+                        <a href=" http://www.facebook.com/profile.php?id=">Facebook</a>
+                        <a href=" http://www.linkedin.com/in/ ">LinkedIn</a>
+                        <a href=" http://twitter.com/ ">Twitter</a>
+                        <a href=" http://youtube.com/ ">YouTube</a>
+                        <a href=" mailto: ">Mail</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" row justify-content-center ">
+                <div class=" col-auto ">
+                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src=" https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity=" sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin=" anonymous "></script>
+    <script src=" https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity=" sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin=" anonymous "></script>
+    <script src=" https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity=" sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin=" anonymous "></script>
+
+
+
+
+
+
+</body>
+
+</html>
